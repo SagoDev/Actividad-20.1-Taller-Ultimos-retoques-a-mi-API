@@ -11,3 +11,11 @@ body {
     width:  930px;
     height: 500px;
 }
+.tabla-transparente {
+    background-color: transparent !important;
+}
+
+/* Aplica un fondo transparente a las celdas de la tabla */
+.tabla-transparente td, .tabla-transparente th {
+    background-color: transparent !important;
+}

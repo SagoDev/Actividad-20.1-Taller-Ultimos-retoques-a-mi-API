@@ -24,10 +24,10 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                      <a class="nav-link fs-5" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Perfil</a>
+                      <a class="nav-link fs-5" href="#">Perfil</a>
                     </li>                    
                   </ul>                  
                 </div>
@@ -36,7 +36,7 @@
           </nav>
     </header>
     <main>
-        <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="container d-flex justify-content-center align-items-center">
             <div class="row border rounded-5 p-3 shadow box-area">
                 <div class="col-sm-12 col-md-3 p-4 d-flex justify-content-center align-items-center flex-column">
                     <div class="misTareas mb-4">
@@ -49,8 +49,21 @@
                         <button class="btn btn btn-outline-dark w-100">Ver Historial</button>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-9 rounded-5 bg-primary-subtle shadow">
-                    
+                <div class="col-sm-12 col-md-9 rounded-5 shadow text-center">
+                  <h2>Lista de Tareas</h2>
+                  <!-- Tabla para mostrar las tareas -->
+                  <table class="table tabla-transparente">
+                      <thead>
+                          <tr>
+                              <th>ID</th>
+                              <th>Descripción</th>
+                              <th>Fecha de Vencimiento</th>
+                              <th>Estado</th>
+                          </tr>
+                      </thead>
+                      <tbody id="listaTareas">                          
+                      </tbody>
+                  </table>
                 </div>
             </div>
         </div>
