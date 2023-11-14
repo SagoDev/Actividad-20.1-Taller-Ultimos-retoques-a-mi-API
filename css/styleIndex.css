@@ -8,8 +8,6 @@ body {
 
 .box-area {
     backdrop-filter: blur(0.4rem);
-    width:  930px;
-    height: 500px;
 }
 .tabla-transparente {
     background-color: transparent !important;
