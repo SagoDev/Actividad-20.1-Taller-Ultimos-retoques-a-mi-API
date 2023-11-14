@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-area {
+    backdrop-filter: blur(0.4rem);
+    width:  930px;
+    height: 500px;
+}
